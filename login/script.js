@@ -7,7 +7,7 @@ const userEnterP=document.getElementById('password').value;
 login.addEventListener('click',()=>{
 
 
-    if(localStorage.getItem('users')!=null){
+    
         const ls=localStorage.getItem('users')
         const arr=JSON.parse(ls);
         flag=1;
@@ -25,7 +25,7 @@ login.addEventListener('click',()=>{
     }else{
         flag=0;
     }
-}
+
 
 
 else{
