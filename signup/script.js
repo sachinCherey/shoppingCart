@@ -9,7 +9,7 @@ let userData=[];
 
 signUp.addEventListener('click',(event)=>{
     event.preventDefault();
-    if(localStorage.getItem('users')!=null){
+    
     let obj={'firstName':firstName.value,'lastName':lastName.value,'email':email.value,'password':password.value,'currentPassword':confirmPassword.value};
     userData.push(obj);
     let uLData=JSON.stringify(userData);
@@ -17,6 +17,6 @@ signUp.addEventListener('click',(event)=>{
     
     alert('Account created Successfully, Happy Shoping');
     window.location.href='/shop/index.html';
-    }
+    
        
 })
