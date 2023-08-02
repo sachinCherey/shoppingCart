@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+input,form,#signUp{
+    width:80%
+}
+
+input{
+    border: solid grey;
+    height:30px
+}
+
+form{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#signUp{
+    background-color: black;
+    color: white;
+    height:30px;
+    width: 8%;
+    position: relative;
+    left: -36%;
+}
+
+
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+
+.right{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+
+.right>.item>a{
+    text-decoration: none;
+    color: white;
+}
+
+#s{
+    position: relative;
+    left: -30%;
+    margin: 15px;
+}
