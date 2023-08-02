@@ -16,7 +16,7 @@ signUp.addEventListener('click',(event)=>{
     localStorage.setItem('users',uLData);
     
     alert('Account created Successfully, Happy Shoping');
-    window.location.href='/shop';
+    window.location.href='/shop/index.html';
     }
        
 })
