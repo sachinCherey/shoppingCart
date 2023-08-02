@@ -11,13 +11,13 @@ login.addEventListener('click',()=>{
         const ls=localStorage.getItem('users')
         const arr=JSON.parse(ls);
         flag=1;
-        window.location.href='/shop';
+        window.location.href='/shop/index.html';
 
 
     for(let i of arr){
         if(i.email==userEnterID && i.password==userEnterP){
             flag=1;
-            window.location.href='/shop';
+            window.location.href='/shop/index.html';
         }
     }
     if(flag==0){
