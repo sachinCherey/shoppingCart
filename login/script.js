@@ -17,7 +17,7 @@ login.addEventListener('click',()=>{
     for(let i of arr){
         if(i.email==userEnterID && i.password==userEnterP){
             flag=1;
-            window.location.href='/shop/index.html';
+            window.location.href='/shop';
         }
     }
     if(flag==0){
@@ -28,9 +28,7 @@ login.addEventListener('click',()=>{
 
 
 
-else{
-    alert('User does not exists');
-}
+
 
 });
 
