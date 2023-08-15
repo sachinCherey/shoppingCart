@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
-*{
+* {
+    top: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    
 }
 
 
@@ -18,8 +20,8 @@
 }
 
 
-.navBar{
-    width: 100%;
+.navBar {
+    width:100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,9 +31,9 @@
 }
 
 
-.right{
+.right {
     display: flex;
-    width: 40%;
+    width: 150%;
     justify-content: space-around;
 }
 
@@ -53,22 +55,24 @@ input{
 }
 
 input,form{
-    width:80%
+    width: 87%;
 }
 
 
 #login{
     position: relative;
     left: -36%;
-    width: 8%;
+    width: 15%;
     color: white;
     height: 30px;
     background-color: black;
 }
 
 .item{
-    position: relative;
-    left: -30%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -79,6 +83,14 @@ input,form{
 }
 
 #l{
-  margin:30px;
+    position: relative;
+    margin: 30px;
+    left: -36%;
 }
 
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
